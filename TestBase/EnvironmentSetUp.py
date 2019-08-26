@@ -5,21 +5,18 @@ import allure
 import pytest
 import selenium
 import time
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
-
-
 
 class EnvironmentSetup(unittest.TestCase):
 
     #setUP contains the browser setup attributes
     @classmethod
     def setUp(cls):
-        cls.driver = webdriver.Chrome("C:/Jenkins/workspace/SimpleProjectTests/SimpleProject/POM/Drivers/chromedriver.exe")
+        cls.driver = webdriver.Chrome("../Drivers/chromedriver.exe")
         cls.driver.implicitly_wait(30)
         cls.driver.maximize_window() 
         cls.wait = WebDriverWait(cls.driver, 30)

@@ -3,9 +3,8 @@ import allure
 import pytest
 import selenium
 import time
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By

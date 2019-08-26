@@ -1,5 +1,6 @@
 __author__ = 'Alexey Koledachkin'
-
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 from selenium.webdriver.common.by import By
 from locators import Locator
 from TestBase.Functions import Functions

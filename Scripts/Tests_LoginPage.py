@@ -3,11 +3,9 @@ __author__ = 'Alexey Koledachkin'
 import allure
 import time
 import sys
-import os
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
-
-from Pages.ContactUs import ContactUs
 from TestBase.EnvironmentSetUp import EnvironmentSetup
 from allure_commons.types import AttachmentType
 from selenium.webdriver.support import expected_conditions as EC
@@ -18,6 +16,7 @@ from TestBase.Functions import Functions
 from Pages.LoginPage import Login
 from TestBase.Links import Links
 from Data import Data
+
 
 class LoginPage(EnvironmentSetup):
 

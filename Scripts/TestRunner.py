@@ -1,7 +1,6 @@
 from unittest import TestLoader, TestSuite, TextTestRunner
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 from Scripts.Tests_ContactUs import ContactPage
 from Scripts.Tests_HomePage import HomePage

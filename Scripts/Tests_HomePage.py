@@ -2,9 +2,8 @@ __author__ = 'Alexey Koledachkin'
 
 import allure
 import time
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 from TestBase.EnvironmentSetUp import EnvironmentSetup
 from allure_commons.types import AttachmentType

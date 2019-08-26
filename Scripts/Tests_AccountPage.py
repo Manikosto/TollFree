@@ -2,17 +2,11 @@ __author__ = 'Alexey Koledachkin'
 
 import allure
 import time
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
-
-from Scripts.Tests_LoginPage import LoginPage
 from TestBase.EnvironmentSetUp import EnvironmentSetup
-from allure_commons.types import AttachmentType
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
 from locators import Locator
 from Data import Data
 from TestBase.Functions import Functions
@@ -20,6 +14,7 @@ from Pages.LoginPage import Login
 from Pages.Account import Account
 from TestBase.Links import Links
 from Pages.Yandex import YandexLogin
+
 
 class AccountPage(EnvironmentSetup):
  
