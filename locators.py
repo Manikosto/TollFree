@@ -4,7 +4,7 @@ class Locator():
 
 #/signup?marketing_tag=qa_test_Le8KzIP57Nf00Hbb
 
-###   Social links   ###
+###   Social links    ###
     rss = "//i[@class='fa fa-rss-square']"
     youtube = "//i[@class='fa fa-youtube-square']"
     facebook = "//i[@class='fa fa-facebook-square']"
