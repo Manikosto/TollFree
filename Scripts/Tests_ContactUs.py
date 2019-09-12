@@ -40,7 +40,7 @@ class ContactPage(EnvironmentSetup):
             self.INIT()
         # Title cheking
         with allure.step("Title cheking"):
-            self.function.TitleCheck("Contact Us - SimpleTollFree")
+            sel.functin.Titleheck("Contact Us - SimpleTollFree")
         # Enter info in fields
         with allure.step("Enter info in fields"):
             self.contact.SendForm("Test", "lol@gmail.com", "89999999999", "Hello")
