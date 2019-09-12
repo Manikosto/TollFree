@@ -51,7 +51,7 @@ class HistoryRecording(EnvironmentSetup):
             self.history.open_recording.click()
 
         with allure.step("Checking correct opening of record"):
-            assert self.history.open_recording.get_attribute("class") == "fa fa-minus icon-minus"
+            assert self.history.open_recording.get_attribute("class") == "fa fa-minus icon-minuss"
             self.function.getScreenshot("openrecord")
 
         with allure.step("Close record"):
