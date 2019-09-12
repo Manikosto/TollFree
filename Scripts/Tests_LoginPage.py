@@ -49,7 +49,7 @@ class LoginPage(EnvironmentSetup):
             self.login.accesscode.send_keys(Data.correct_access)
             self.login.host_pin.send_keys(Data.correct_pin)
         with allure.step("Remember me"):
-            self.login.remember_me.click()
+            self.login.remember_me.clic()
         with allure.step("Login"):
             self.login.submit.click()
         with allure.step("Wait login page"):
