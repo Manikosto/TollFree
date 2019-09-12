@@ -45,11 +45,11 @@ class LoginPage(EnvironmentSetup):
         with allure.step("Title cheking"):
             self.function.TitleCheck("Login - SimpleTollFree")
         with allure.step("Enter correct data"):
-            self.login.dial_number.send_keys(Data.correct_dia)
+            self.login.dial_number.send_keys(998377)
             self.login.accesscode.send_keys(Data.correct_access)
             self.login.host_pin.send_keys(Data.correct_pin)
         with allure.step("Remember me"):
-            self.login.remember_me.clic()
+            self.login.remember_me.click()
         with allure.step("Login"):
             self.login.submit.click()
         with allure.step("Wait login page"):
