@@ -4,11 +4,13 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 from selenium.webdriver.common.by import By
 from locators import Locator
 from TestBase.Functions import Functions
-
+from Data import Data
 # driver.find_element(By.XPATH(''))
 class Login():
+
     def __init__(self, driver):
         self.driver = driver
+        self.data = Data()
         self.function = Functions(driver)
 ###   Locators   ###
         self.logo = self.driver.find_element(By.XPATH, Locator.logo)
@@ -31,13 +33,3 @@ class Login():
         self.forgot_pass = self.driver.find_element(By.XPATH, Locator.forgot_pass)
         self.send_info = self.driver.find_element(By.XPATH, Locator.send_info)
 
-
-    def LoginIn(self, number, code, pin):
-        self.login.dial_number.send_keys(number)
-        self.login.accesscode.send_keys(code)
-        self.login.host_pin.send_keys(pin)
-        self.login.remember_me.click()
-        self.login.submit.click()
-        self.function.WaitLocate(Locator.page_name)
-        self.function.getScreenshot("login")
-        self.function.TitleCheck(Locator.login_title)

@@ -15,7 +15,7 @@ from TestBase.Links import Links
 from Data import Data
 
 
-
+@allure.parent_suite("Sign up page tests")
 class SignUpPage(EnvironmentSetup):
 
 ###   INIT   ###
@@ -128,7 +128,7 @@ class SignUpPage(EnvironmentSetup):
             self.LOG_access_code = self.driver.find_element(By.XPATH, Locator.email_access_code).text
             self.LOG_host_pin = self.driver.find_element(By.XPATH, Locator.email_host_pin).text
 #############################################################################################
-        with allure.step("Validation of letter registration"):
+        with allure.step("Validation of registration letter"):
             assert self.SignUp_Toll == self.LOG_number
             assert self.SignUp_Access == self.LOG_access_code
             assert self.SignUp_PIN == self.LOG_host_pin

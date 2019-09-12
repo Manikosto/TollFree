@@ -9,122 +9,86 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/Yandex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#35#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/SignUp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#35#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-              <folding>
-                <element signature="e#35#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/HistoryRecording.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#35#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/ContactUs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#35#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/Account.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#35#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/Tests_LoginPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#35#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/Tests_SignUp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestBase/EnvironmentSetUp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding>
-                <element signature="e#35#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.45845968">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Scripts/Tests_HistoryRecording.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#35#48#0" expanded="true" />
+                    <marker date="1568296862471" expanded="true" signature="5103:5937" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Scripts/Tests_HomePage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#35#48#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Scripts/Tests_LoginPage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#35#48#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Scripts/Tests_SignUp.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#34#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Pages/HistoryRecording.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="436">
+                  <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#35#50#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/report/environment.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,6 +103,9 @@
       <find>above</find>
       <find>value</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,12 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/POM/Scripts/script_ContactUs.py" />
-        <option value="$PROJECT_DIR$/POM/Scripts/Functions.py" />
-        <option value="$PROJECT_DIR$/POM/Scripts/script_HomePage.py" />
-        <option value="$PROJECT_DIR$/POM/Scripts/Functions.txt" />
-        <option value="$PROJECT_DIR$/POM/Scripts/scr.js" />
-        <option value="$PROJECT_DIR$/POM/Scripts/scr.txt" />
         <option value="$PROJECT_DIR$/POM/example.py" />
         <option value="$PROJECT_DIR$/POM/player.py" />
         <option value="$PROJECT_DIR$/POM/WRONG.py" />
@@ -181,30 +142,36 @@
         <option value="$PROJECT_DIR$/POM/locators.py" />
         <option value="$PROJECT_DIR$/POM/Scripts/Tests_HistoryRecording.py" />
         <option value="$PROJECT_DIR$/TestBase/Links.py" />
-        <option value="$PROJECT_DIR$/TestBase/Functions.py" />
-        <option value="$PROJECT_DIR$/Scripts/Tests_SignUp.py" />
-        <option value="$PROJECT_DIR$/Scripts/Tests_LoginPage.py" />
-        <option value="$PROJECT_DIR$/Scripts/Tests_HomePage.py" />
-        <option value="$PROJECT_DIR$/Scripts/Tests_HistoryRecording.py" />
-        <option value="$PROJECT_DIR$/Scripts/Tests_ContactUs.py" />
-        <option value="$PROJECT_DIR$/Scripts/Tests_AccountPage.py" />
-        <option value="$PROJECT_DIR$/Scripts/TestRunner.py" />
         <option value="$PROJECT_DIR$/Pages/Yandex.py" />
         <option value="$PROJECT_DIR$/Pages/SignUp.py" />
-        <option value="$PROJECT_DIR$/Pages/LoginPage.py" />
         <option value="$PROJECT_DIR$/Pages/HomePage.py" />
-        <option value="$PROJECT_DIR$/Pages/HistoryRecording.py" />
         <option value="$PROJECT_DIR$/Pages/ContactUs.py" />
         <option value="$PROJECT_DIR$/Pages/Account.py" />
+        <option value="$PROJECT_DIR$/TestBase/Functions.py" />
+        <option value="$PROJECT_DIR$/locators.py" />
+        <option value="$PROJECT_DIR$/Pages/LoginPage.py" />
+        <option value="$PROJECT_DIR$/TestRunner.py" />
+        <option value="$PROJECT_DIR$/report/categories.json" />
+        <option value="$PROJECT_DIR$/Pages/HistoryRecording.py" />
+        <option value="$PROJECT_DIR$/Scripts/TestRunner.py" />
+        <option value="$PROJECT_DIR$/Data.py" />
+        <option value="$PROJECT_DIR$/env.json" />
+        <option value="$PROJECT_DIR$/report/environment.xml" />
         <option value="$PROJECT_DIR$/TestBase/EnvironmentSetUp.py" />
+        <option value="$PROJECT_DIR$/Scripts/Tests_HistoryRecording.py" />
+        <option value="$PROJECT_DIR$/Scripts/Tests_AccountPage.py" />
+        <option value="$PROJECT_DIR$/Scripts/Tests_ContactUs.py" />
+        <option value="$PROJECT_DIR$/Scripts/Tests_HomePage.py" />
+        <option value="$PROJECT_DIR$/Scripts/Tests_LoginPage.py" />
+        <option value="$PROJECT_DIR$/Scripts/Tests_SignUp.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="240" />
-    <option name="y" value="170" />
-    <option name="width" value="1440" />
-    <option name="height" value="780" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1060" />
+    <option name="y" value="-1097" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,38 +179,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SimpleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleProject" type="462c0819:PsiDirectoryNode" />
+              <item name="FREE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FREE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SimpleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleProject" type="462c0819:PsiDirectoryNode" />
+              <item name="FREE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FREE" type="462c0819:PsiDirectoryNode" />
               <item name="Drivers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SimpleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleProject" type="462c0819:PsiDirectoryNode" />
+              <item name="FREE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FREE" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SimpleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="FREE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FREE" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SimpleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleProject" type="462c0819:PsiDirectoryNode" />
+              <item name="FREE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FREE" type="462c0819:PsiDirectoryNode" />
               <item name="TestBase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,19 +219,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\akoledachkin\PycharmProjects\SimpleProject\POM\Scripts" />
-      <recent name="C:\Users\akoledachkin\PycharmProjects\SimpleProject\POM" />
-      <recent name="C:\Users\akoledachkin\PycharmProjects\SimpleProject\POM\Drivers" />
-      <recent name="C:\Users\akoledachkin\PycharmProjects\SimpleProject\POM\TestBase" />
-      <recent name="C:\Users\Admin\PycharmProjects\SimpleProject" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\SimpleProject" />
       <recent name="C:\Users\Admin\Desktop\SimpleProject\TestBase" />
       <recent name="C:\Users\Admin\Desktop\SimpleProject\Scripts" />
       <recent name="C:\Users\akoledachkin\PycharmProjects\SimpleProject\POM\Scripts" />
       <recent name="C:\Users\akoledachkin\PycharmProjects\SimpleProject\POM\Pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akoledachkin\Desktop\FREE\TestBase" />
+      <recent name="C:\Users\akoledachkin\Desktop\FREE\Scripts" />
+      <recent name="C:\Users\akoledachkin\Desktop\FREE" />
+      <recent name="C:\Users\akoledachkin\PycharmProjects\SimpleProject\POM\Scripts" />
+      <recent name="C:\Users\akoledachkin\PycharmProjects\SimpleProject\POM" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,84 +246,105 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording">
-    <configuration name="Unittests for Tests_AccountPage.AccountPage.test_TollNumber" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate">
+    <configuration name="TestRunner (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SimpleProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/TestRunner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SimpleProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\akoledachkin\Desktop\FREE\Scripts\TestRunner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for EnvironmentSetUp.EnvironmentSetup" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SimpleProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POM/Scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestBase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests_AccountPage.AccountPage.test_TollNumber&quot;" />
+      <option name="_new_target" value="&quot;EnvironmentSetUp.EnvironmentSetup&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Tests_FAQ.FAQ.test_TollNumber" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_CheckingPlayer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SimpleProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POM/Scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests_FAQ.FAQ.test_TollNumber&quot;" />
+      <option name="_new_target" value="&quot;Tests_HistoryRecording.HistoryRecording.test_CheckingPlayer&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="SimpleProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POM/Scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests_HistoryRecording.HistoryRecording&quot;" />
+      <option name="_new_target" value="&quot;Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="SimpleProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POM/Scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests_HistoryRecording.HistoryRecording.test_OpenRecording&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Tests_SignUp.SignUpPage.test_CorrectSignUp" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="SimpleProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POM/Scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests_SignUp.SignUpPage.test_CorrectSignUp&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.TestRunner" />
+      <item itemvalue="Python.TestRunner (1)" />
+      <item itemvalue="Python tests.Unittests for EnvironmentSetUp.EnvironmentSetup" />
+      <item itemvalue="Python tests.Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate" />
+      <item itemvalue="Python tests.Unittests for Tests_HistoryRecording.HistoryRecording.test_CheckingPlayer" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" />
-        <item itemvalue="Python tests.Unittests for Tests_HistoryRecording.HistoryRecording" />
-        <item itemvalue="Python tests.Unittests for Tests_SignUp.SignUpPage.test_CorrectSignUp" />
-        <item itemvalue="Python tests.Unittests for Tests_AccountPage.AccountPage.test_TollNumber" />
-        <item itemvalue="Python tests.Unittests for Tests_FAQ.FAQ.test_TollNumber" />
+        <item itemvalue="Python tests.Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate" />
+        <item itemvalue="Python tests.Unittests for Tests_HistoryRecording.HistoryRecording.test_CheckingPlayer" />
+        <item itemvalue="Python tests.Unittests for EnvironmentSetUp.EnvironmentSetup" />
+        <item itemvalue="Python.TestRunner (1)" />
+        <item itemvalue="Python.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -374,53 +362,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_OpenRecording - 2019.08.21 at 15h 16m 46s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_PositiveFilteringByDate - 2019.09.11 at 13h 55m 48s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_OpenRecording - 2019.08.21 at 15h 17m 29s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_PositiveFilteringByDate - 2019.09.11 at 13h 56m 02s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_OpenRecording - 2019.08.21 at 15h 18m 40s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_PositiveFilteringByDate - 2019.09.11 at 13h 56m 21s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording - 2019.08.21 at 15h 20m 53s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_CheckingPlayer - 2019.09.11 at 14h 07m 15s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_CheckingPlayer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_OpenRecording - 2019.08.21 at 15h 23m 16s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_CheckingPlayer - 2019.09.11 at 14h 08m 39s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_CheckingPlayer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_OpenRecording - 2019.08.21 at 15h 36m 30s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_CheckingPlayer - 2019.09.11 at 14h 15m 57s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_CheckingPlayer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_OpenRecording - 2019.08.21 at 15h 37m 37s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_CheckingPlayer - 2019.09.11 at 14h 16m 49s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_CheckingPlayer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_OpenRecording - 2019.08.21 at 15h 40m 30s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_PositiveFilteringByDate - 2019.09.11 at 15h 22m 17s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_OpenRecording - 2019.08.21 at 15h 41m 57s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_PositiveFilteringByDate - 2019.09.11 at 15h 24m 13s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_OpenRecording - 2019.08.21 at 15h 42m 39s.xml">
-      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_OpenRecording" configurationId="tests" />
+    <history-entry file="Unittests_for_Tests_HistoryRecording_HistoryRecording_test_PositiveFilteringByDate - 2019.09.11 at 15h 29m 28s.xml">
+      <configuration name="Unittests for Tests_HistoryRecording.HistoryRecording.test_PositiveFilteringByDate" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="984" y="-1049" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13171759" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13119073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49420443" visible="true" weight="0.22651933" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49420443" visible="true" weight="0.22651933" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49894625" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4947313" visible="true" weight="0.15709643" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4947313" visible="true" weight="0.15690608" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5057956" side_tool="true" weight="0.22651933" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.32928178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -428,35 +415,31 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17860906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13119073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49420443" visible="true" weight="0.22651933" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49420443" weight="0.22651933" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49894625" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4947313" weight="0.15801105" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5057956" side_tool="true" visible="true" weight="0.22651933" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4947313" visible="true" weight="0.15690608" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5057956" side_tool="true" weight="0.22651933" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.32928178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/POM/Scripts/scr.txt" />
-    <entry file="file://$PROJECT_DIR$/POM/TestSuit/TestRunner.py" />
-    <entry file="file://$PROJECT_DIR$/POM/player.py" />
-    <entry file="file://H:/FCC_Python/Landing_page_14_tests.py" />
-    <entry file="file://$PROJECT_DIR$/POM/example.py" />
-    <entry file="file://$PROJECT_DIR$/POM/WRONG.py" />
-    <entry file="file://$PROJECT_DIR$/POM/Pages/Email.py" />
-    <entry file="file://$PROJECT_DIR$/POM/Pages/ContactUs.py" />
-    <entry file="file://$PROJECT_DIR$/POM/Scripts/debug.log" />
     <entry file="file://$PROJECT_DIR$/POM/Scripts/some.txt" />
     <entry file="file://$PROJECT_DIR$/POM/Pages/HomePage.py" />
     <entry file="file://$PROJECT_DIR$/POM/Pages/SignUp.py" />
@@ -479,15 +462,9 @@
     <entry file="file://$PROJECT_DIR$/POM/Pages/HistoryRecording.py" />
     <entry file="file://$PROJECT_DIR$/POM/locators.py" />
     <entry file="file://$PROJECT_DIR$/POM/Scripts/Tests_HistoryRecording.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/__ init __.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestBase/__ init __.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__ init __.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/__ init __.py" />
+    <entry file="file://$PROJECT_DIR$/TestBase/__ init __.py" />
+    <entry file="file://$PROJECT_DIR$/__ init __.py" />
     <entry file="file://$PROJECT_DIR$/TestBase/Links.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -495,69 +472,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestBase/Functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Tests_HomePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Tests_HistoryRecording.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Tests_ContactUs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Tests_AccountPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#35#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/TestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/Yandex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="68">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#35#50#0" expanded="true" />
@@ -567,35 +484,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/SignUp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="68">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#35#50#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="51">
           <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-          <folding>
-            <element signature="e#35#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/HistoryRecording.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#35#50#0" expanded="true" />
           </folding>
@@ -604,28 +504,170 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/ContactUs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="68">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#35#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/categories.json" />
+    <entry file="file://$PROJECT_DIR$/TestBase/Functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="55" column="105" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/Account.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="204">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#35#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/STF/venv/Lib/site-packages/allure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/STF/venv/Lib/site-packages/allure_commons/_allure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/STF/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/xml/etree/ElementPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env.json" />
+    <entry file="file://$PROJECT_DIR$/Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBase/EnvironmentSetUp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#35#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="38" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/environment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/HistoryRecording.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="e#35#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Tests_AccountPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Tests_ContactUs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1292">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Tests_HistoryRecording.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+            <marker date="1568296862471" expanded="true" signature="5103:5937" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Tests_HomePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Tests_LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="68">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="e#35#48#0" expanded="true" />
           </folding>
@@ -634,17 +676,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Tests_SignUp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestBase/EnvironmentSetUp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <element signature="e#35#50#0" expanded="true" />
+            <element signature="e#34#49#0" expanded="true" />
           </folding>
         </state>
       </provider>

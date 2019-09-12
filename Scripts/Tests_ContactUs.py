@@ -15,7 +15,7 @@ from locators import Locator
 from TestBase.Functions import Functions
 from TestBase.Links import Links
 
-
+@allure.parent_suite("Contact Us page tests")
 class ContactPage(EnvironmentSetup):
 
 ###   INIT   ###

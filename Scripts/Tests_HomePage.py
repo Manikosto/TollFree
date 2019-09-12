@@ -14,6 +14,7 @@ from TestBase.Functions import Functions
 from Pages.HomePage import Home
 from TestBase.Links import Links
 
+@allure.parent_suite("Home page tests")
 class HomePage(EnvironmentSetup):
 
     def INIT(self):

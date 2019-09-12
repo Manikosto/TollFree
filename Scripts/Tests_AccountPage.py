@@ -15,7 +15,7 @@ from Pages.Account import Account
 from TestBase.Links import Links
 from Pages.Yandex import YandexLogin
 
-
+@allure.parent_suite("Account page tests")
 class AccountPage(EnvironmentSetup):
  
 ###   INIT   ###

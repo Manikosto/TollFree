@@ -4,7 +4,7 @@ class Locator():
 
 #/signup?marketing_tag=qa_test_Le8KzIP57Nf00Hbb
 
-###   Social links   ###
+###   Social links    ###
     rss = "//i[@class='fa fa-rss-square']"
     youtube = "//i[@class='fa fa-youtube-square']"
     facebook = "//i[@class='fa fa-facebook-square']"
@@ -173,6 +173,16 @@ class Locator():
     download = "//i[@class='fa fa-download fa-lg']"
     play = "//i[@class='fa fa-play fa-lg']"
     trash = "//i[@class='fa fa-trash fa-lg']"
+
+    pause = "//a[text()='pause']"
+    play_button = "//a[text()='play']"
+    stop = "//a[text()='stop']"
+    mute = "//a[text()='mute']"
+    unmute = "//a[text()='unmute']"
+    current_time = "//div[@id='currentTime']"
+    repeat = "//a[text()='repeat']"
+    repeat_off = "//a[text()='repeat off']"
+    download_pdf = "//a[text()='Download PDF']"
 
 ###   Titles   ###
     registration_letter_title = "//span[text()='QA MODE:SimpleTollFree.com Account Registration']"

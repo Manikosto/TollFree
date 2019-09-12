@@ -23,13 +23,13 @@ class History():
 
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(self.driver, 10)
-        self.login = Login(driver)
-###   Locators   ###
         self.function = Functions(driver)
-
+        self.driver.get(Links.account)
+        self.login = Login(driver)
         self.LoggingIn()
         self.driver.get(Links.recordings)
+
+
 
         self.start_date = self.driver.find_element(By.XPATH, Locator.start_date)
         self.end_date = self.driver.find_element(By.XPATH, Locator.end_date)
@@ -39,6 +39,8 @@ class History():
         ### Sorting
         self.sort_by_date_time = self.driver.find_element(By.XPATH, Locator.sort_by_date_time)
         self.sort_by_end_time = self.driver.find_element(By.XPATH, Locator.sort_by_end_time)
+
+
         self.sort_by_callers = self.driver.find_element(By.XPATH, Locator.sort_by_callers)
         self.sort_by_duration = self.driver.find_element(By.XPATH, Locator.sort_by_duration)
         self.sort_by_recording_options = self.driver.find_element(By.XPATH, Locator.sort_by_recording_options)
@@ -60,5 +62,9 @@ class History():
         self.function.WaitLocate(Locator.page_name)
         self.function.getScreenshot("login")
         self.function.TitleCheck(Locator.login_title)
+
+
+
+
 
 

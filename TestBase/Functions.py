@@ -65,3 +65,6 @@ class Functions():
 
     def OpenBrowser(self, page):
         self.driver.get(page)
+
+    def find_element(self, xpath):
+        self.driver.find_element(By.XPATH, xpath)

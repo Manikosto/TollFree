@@ -17,7 +17,7 @@ from Pages.LoginPage import Login
 from TestBase.Links import Links
 from Data import Data
 
-
+@allure.parent_suite("Login page tests")
 class LoginPage(EnvironmentSetup):
 
 ###   INIT   ###
