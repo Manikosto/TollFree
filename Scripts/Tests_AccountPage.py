@@ -44,7 +44,7 @@ class AccountPage(EnvironmentSetup):
         with allure.step("Check Toll-free number"):
             assert self.account.TollFree.text == self.data.correct_dial
 
-        with allure.step("Check Access code"):
+        with allure.step("Check Access code")
             assert self.account.acc_AccessCode.text == self.data.correct_access
 
         with allure.step("Check Host PIN"):
