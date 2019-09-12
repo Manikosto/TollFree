@@ -21,7 +21,7 @@ class EnvironmentSetup(unittest.TestCase):
 
     def setUp(self):
 
-        with open('../report/environment.xml', 'r') as env:
+        with open('../allure-results/environment.xml', 'r') as env:
             root = fromstring(env.read())
             browser = root.find("./parameter/value[1]")
 
