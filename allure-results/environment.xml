@@ -1,7 +1,7 @@
 <environment>
     <parameter>
         <key>Browser</key>
-        <value>Firefox</value>
+        <value>Chrome</value>
     </parameter>
     <parameter>
         <key>Browser.Version</key>
