@@ -39,7 +39,7 @@ class AccountPage(EnvironmentSetup):
         with allure.step("Opening page and logining"):
             self.INIT()
         with allure.step("Check Toll number"):
-            assert self.account.Toll.text == self.data.Toll_numbers
+            assert self.account.Toll.text == self.data.Toll_number
 
         with allure.step("Check Toll-free number"):
             assert self.account.TollFree.text == self.data.correct_dial
