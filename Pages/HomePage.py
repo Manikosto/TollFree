@@ -12,7 +12,7 @@ from selenium.webdriver.common.by import By
 from locators import Locator
 from selenium.webdriver.support.ui import WebDriverWait
 
-class Home():
+class Home()
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
