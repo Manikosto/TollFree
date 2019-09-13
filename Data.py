@@ -52,7 +52,7 @@ class Data():
     test_login = "fccautotests@yandex.ru" # Write your email from yandex for checking letter
     test_password = "pereriv123" # Write here password frow yandex
 
-
+    registration_letter_title = "//span[text()='SimpleTollFree.com Account Registration']"
 
     ### Date for Filter checking ###
     start_date = "09/11/2019" # Write here your date for test

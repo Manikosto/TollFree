@@ -118,7 +118,7 @@ class HistoryRecording(EnvironmentSetup):
     @allure.title("Positive filtering by date")
     @allure.description("")
     @allure.severity("Critical")
-    @allure.link(name = "TestCase", url = "https://testlink.int/linkto.php?tprojectPrefix=STF&item=testcase&id=STF-28")
+    @allure.link(name = "Positive filtering", url = "https://testlink.int/linkto.php?tprojectPrefix=STF&item=testcase&id=STF-28")
     def test_PositiveFilteringByDate(self):
         with allure.step("Opening page and logining"):
             self.INIT()

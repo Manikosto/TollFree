@@ -185,7 +185,7 @@ class Locator():
     download_pdf = "//a[text()='Download PDF']"
 
 ###   Titles   ###
-    registration_letter_title = "//span[text()='QA MODE:SimpleTollFree.com Account Registration']"
+
     login_title = "Account Information - SimpleTollFree"
     account_info = "Account Information - SimpleTollFree"
     recordings = "History & Recordings - SimpleTollFree"

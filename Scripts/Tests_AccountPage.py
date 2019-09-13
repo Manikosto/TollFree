@@ -90,14 +90,14 @@ class AccountPage(EnvironmentSetup):
 
         with allure.step("Show only USA time zones"):
             self.account.acc_change_zones.click()
-            assert self.account.acc_change_zones.text == "Show all time zoness"
+            assert self.account.acc_change_zones.text == "Show all time zones"
             self.account.acc_time_click.click()
             time.sleep(1)
             self.function.getScreenshot("usazones")
 
         with allure.step("Show all time zones"):
             self.account.acc_change_zones.click()
-            assert self.account.acc_change_zones.text == "Show U.S. onlys"
+            assert self.account.acc_change_zones.text == "Show U.S. only"
             self.account.acc_time_click.click()
             time.sleep(1)
             self.function.getScreenshot("allzones")
@@ -123,8 +123,9 @@ class AccountPage(EnvironmentSetup):
 
         with allure.step("Checking email letter"):
             self.yandex.Autorization(Data.test_login, Data.test_password)
-
+            self.function.getScreenshot("2")
         with allure.step("Check letter"):
+            self.function.getScreenshot("resendinfffso")
             self.yandex.CheckLetter()
             self.function.getScroll("400")
 

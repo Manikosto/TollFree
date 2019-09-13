@@ -10,6 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 from selenium.webdriver.common.by import By
 from locators import Locator
+from Data import Data
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
@@ -34,8 +35,8 @@ class YandexLogin():
 
     def CheckLetter(self):
         try:
-            self.wait.until(EC.visibility_of_element_located((By.XPATH, "//span[text()='SimpleTollFree.com Account Registration']")))
-            self.driver.find_element(By.XPATH, "//span[text()='SimpleTollFree.com Account Registration']").click()
+            self.wait.until(EC.visibility_of_element_located((By.XPATH, Data.registration_letter_title)))
+            self.driver.find_element(By.XPATH, Data.registration_letter_title).click()
             self.pin_letter = self.driver.find_element(By.XPATH, Locator.pin_letter)
             self.pin_letter = self.pin_letter.text
 

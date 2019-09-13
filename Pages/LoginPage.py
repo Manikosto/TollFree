@@ -33,3 +33,12 @@ class Login():
         self.forgot_pass = self.driver.find_element(By.XPATH, Locator.forgot_pass)
         self.send_info = self.driver.find_element(By.XPATH, Locator.send_info)
 
+    def LoggingIn(self):
+        self.login.dial_number.send_keys(Data.correct_dial)
+        self.login.accesscode.send_keys(Data.correct_access)
+        self.login.host_pin.send_keys(Data.correct_pin)
+        self.login.remember_me.click()
+        self.login.submit.click()
+        self.function.WaitLocate(Locator.page_name)
+        self.function.getScreenshot("login")
+        self.function.TitleCheck(Locator.login_title)

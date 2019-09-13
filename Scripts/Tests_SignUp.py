@@ -21,9 +21,9 @@ class SignUpPage(EnvironmentSetup):
 ###   INIT   ###
 
 
-    def INIT(self, page=Links.sign_up):
+    def INIT(self):
         driver = self.driver
-        self.driver.get(page)
+        self.driver.get(Links.sign_up)
         self.function = Functions(driver)
         self.signup = SignUp(driver)
         self.yandex = YandexLogin(driver)
