@@ -90,22 +90,14 @@ class AccountPage(EnvironmentSetup):
 
         with allure.step("Show only USA time zones"):
             self.account.acc_change_zones.click()
-<<<<<<< HEAD
             assert self.account.acc_change_zones.text == "Show all time zones"
-=======
-            assert self.account.acc_change_zones.text == "Show all time zonesss"
->>>>>>> 8b31dc1865a919613c1e0931ce604fda1999004e
             self.account.acc_time_click.click()
             time.sleep(1)
             self.function.getScreenshot("usazones")
 
         with allure.step("Show all time zones"):
             self.account.acc_change_zones.click()
-<<<<<<< HEAD
             assert self.account.acc_change_zones.text == "Show U.S. only"
-=======
-            assert self.account.acc_change_zones.text == "Show U.S. onlyss"
->>>>>>> 8b31dc1865a919613c1e0931ce604fda1999004e
             self.account.acc_time_click.click()
             time.sleep(1)
             self.function.getScreenshot("allzones")
