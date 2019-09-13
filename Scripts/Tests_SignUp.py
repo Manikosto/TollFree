@@ -44,7 +44,7 @@ class SignUpPage(EnvironmentSetup):
             self.INIT()
         # Title cheking
         with allure.step("Title cheking"):
-            self.function.TitleCheck("Registration Page - SimpleTollFree")
+            self.function.TitleChec("Registration Page - SimpleTollFree")
         # Required fields checking
         with allure.step("Required fields checking"):
             self.signup.submit.click()
