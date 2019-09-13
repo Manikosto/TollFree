@@ -34,12 +34,9 @@ class EnvironmentSetup(unittest.TestCase):
         elif browser.text == 'Firefox': # Run in Firefox
             self.driver = webdriver.Firefox(executable_path="../Drivers/geckodriver.exe")
 
-<<<<<<< HEAD
 #################################################################################################
 #                                WE ANNOUNCE DYNAMIC DATA HERE                                  #
 #################################################################################################
-=======
->>>>>>> 8b31dc1865a919613c1e0931ce604fda1999004e
         with open('../allure-results/environment.xml', 'r') as env:
             root = fromstring(env.read())
             browser = root.find("./parameter[3]/value") # Search Stand value
