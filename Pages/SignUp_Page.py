@@ -33,7 +33,6 @@ class SignUpPage(BasePage):
     YYYY = (By.XPATH, Locator.YYYY)  # SELECT
     STATE = (By.XPATH, Locator.STATE)
 
-
     SIGNUP_TOLL = (By.XPATH, Locator.SIGNUP_TOLL)
     SIGNUP_ACCESS = (By.XPATH, Locator.SIGNUP_ACCESS)
     SIGNUP_PIN = (By.XPATH, Locator.SIGNUP_PIN)
@@ -41,8 +40,6 @@ class SignUpPage(BasePage):
     EMAIL_NUMBER = (By.XPATH, Locator.EMAIL_NUMBER)
     EMAIL_ACCESS_CODE = (By.XPATH, Locator.EMAIL_ACCESS_CODE)
     EMAIL_HOST_PIN = (By.XPATH, Locator.EMAIL_HOST_PIN)
-
-
 
 
     def enter_customer_info(self):

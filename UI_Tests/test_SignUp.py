@@ -13,11 +13,12 @@ from Links import Links
 from locators import Locator
 from functions import Functions
 from Pages.Yandex_page import YandexLogin
-
+from env import env
 
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
-@allure.parent_suite("Sign up page")
+@allure.parent_suite(env)
+@allure.suite("Sign up page")
 class Test_SignUp():
 
     def setup(self):

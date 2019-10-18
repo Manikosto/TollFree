@@ -10,11 +10,12 @@ from Links import Links
 from locators import Locator
 from functions import Functions
 from Pages.Home_page import Home
-
+from env import env
 
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
-@allure.parent_suite("Home page")
+@allure.parent_suite(env)
+@allure.suite("Home page")
 class Test_Home():
 
     def setup(self):
@@ -74,22 +75,35 @@ class Test_Home():
             self.home.click_on_home_bottom_button()
 
 
-    # @pytest.mark.smoke
-    # @pytest.mark.sanity
-    # @allure.title("Sign up button")
-    # @allure.severity("Critical")
-    # def test_sign_up(self):
-    #
-    #     with allure.step("Checking about us bottom button"):
-    #         self.home.click_on_about_us_bottom_button()
-    #
-    #     with allure.step("Checking contact us bottom button"):
-    #         self.home.click_on_contact_us_bottom_button()
-    #
-    #     with allure.step("Checking faq bottom button"):
-    #         self.home.click_on_faq_bottom_button()
-    #
-    #     with allure.step("Checking home bottom button"):
-    #         self.home.click_on_home_bottom_button()
+    @pytest.mark.smoke
+    @pytest.mark.sanity
+    @allure.title("Sign up button checking")
+    @allure.severity("Critical")
+    def test_sign_up_button_checking(self):
 
+        with allure.step("Click on sign up button checking"):
+            self.home.click_on_sign_up_button()
+
+
+    @pytest.mark.smoke
+    @pytest.mark.sanity
+    @allure.title("Login button checking")
+    @allure.severity("Critical")
+    def test_login_button_checking(self):
+
+        with allure.step("Click on login button"):
+            self.home.click_on_login_button()
+
+
+    @pytest.mark.smoke
+    @pytest.mark.sanity
+    @allure.title("Logo link checking")
+    @allure.severity("Minor")
+    def test_logo_link_checking(self):
+
+        with allure.step("Click on sign up button"):
+            self.home.click_on_sign_up_button()
+
+        with allure.step("Click on login button checking"):
+            self.home.click_on_logo_link()
 

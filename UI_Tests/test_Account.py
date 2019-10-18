@@ -10,21 +10,27 @@ from locators import Locator
 from functions import Functions
 from Pages.ContactUs_page import ContactUs
 from Pages.Account_page import Account
+from Pages.Yandex_page import YandexLogin
 from Pages.Login_page import LoginPage
-
+from Pages.SignUp_Page import SignUpPage
+from data import Data
+from env import env
 
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
-@allure.parent_suite("Account page")
+@allure.parent_suite(env)
+@allure.suite("Account page")
 class Test_Account():
 
 
     def setup(self):
         self.links = Links()
         self.functions = Functions(self.driver)
-        self.contact_page = ContactUs(self.driver)
+        self.signup_page = SignUpPage(self.driver)
         self.account_page = Account(self.driver)
+        self.yandex_page = YandexLogin(self.driver)
         self.login_page = LoginPage(self.driver)
+
 
         self.driver.get(self.links.account)
         self.login_page.login_in_account()
@@ -51,33 +57,6 @@ class Test_Account():
         with allure.step("Playback number checking"):
             self.account_page.playback_number_assert()
 
-        with allure.step("First name checking"):
-            self.account_page.first_name_assert()
-
-        with allure.step("Last name checking"):
-            self.account_page.last_name_assert()
-
-        with allure.step("Email checking"):
-            self.account_page.email_assert()
-
-        with allure.step("Phone number checking"):
-            self.account_page.phone_number_assert()
-
-        with allure.step("Company name checking"):
-            self.account_page.company_name_assert()
-
-        with allure.step("Street address checking"):
-            self.account_page.address_assert()
-
-        with allure.step("Suite checking"):
-            self.account_page.suite_assert()
-
-        with allure.step("Zip checking"):
-            self.account_page.zip_assert()
-
-        with allure.step("State checking"):
-            self.account_page.state_assert()
-
 
 
     @pytest.mark.sanity
@@ -96,3 +75,40 @@ class Test_Account():
             self.account_page.text_timezones_checking("Show U.S. only")
             self.account_page.account_timezones_click()
             self.functions.getScreenshot("allzones")
+
+
+    @pytest.mark.sanity
+    @allure.title("Resend info checking")
+    @allure.severity("Minor")
+    def test_timezones_info_checking(self):
+
+        with allure.step("Show only USA time zones"):
+            self.account_page.change_zones_click()
+            self.account_page.text_timezones_checking("Show all time zones")
+            self.account_page.account_timezones_click()
+            self.functions.getScreenshot("usazones")
+
+        with allure.step("Show all time zones"):
+            self.account_page.change_zones_click()
+            self.account_page.text_timezones_checking("Show U.S. only")
+            self.account_page.account_timezones_click()
+            self.functions.getScreenshot("allzones")
+
+
+    @pytest.mark.sanity
+    @pytest.mark.smoke
+    @allure.title("Resend info")
+    @allure.severity("Critical")
+    def test_resend_info(self):
+
+        with allure.step("Click on resend info button"):
+            self.account_page.click_on_resend_info()
+
+        with allure.step("Take data for checking"):
+            self.account_page.take_data_for_login()
+
+        with allure.step("Checking letter"):
+            self.yandex_page.Autorization(Data.TEST_LOGIN, Data.TEST_PASSWORD)
+            self.yandex_page.CheckLetter()
+            self.functions.getScroll("400")
+            self.account_page.checking_information()

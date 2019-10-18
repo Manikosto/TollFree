@@ -44,3 +44,18 @@ class Home(BasePage):
         self.functions.TitleCheck("Toll Free Conferencing – Simple Toll Free Conferencing")
         self.driver.back()
 
+    def click_on_sign_up_button(self):
+        self.driver.find_element(*self.SIGN_UP).click()
+        self.functions.TitleCheck("Registration Page - SimpleTollFree")
+        self.functions.getScreenshot("SignUp")
+
+    def click_on_login_button(self):
+        self.driver.find_element(*self.LOGIN).click()
+        self.functions.TitleCheck("Login - SimpleTollFree")
+        self.functions.getScreenshot("Login")
+
+    def click_on_logo_link(self):
+        self.driver.find_element(*self.LOGO).click()
+        self.functions.TitleCheck("Toll Free Conferencing – Simple Toll Free Conferencing")
+        self.functions.getScreenshot("Logolink")
+

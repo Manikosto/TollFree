@@ -35,6 +35,10 @@ class Account(BasePage):
     ACC_CHANGE_ZONES = (By.XPATH, Locator.ACC_CHANGE_ZONES)
     ACC_RESEND_INFO = (By.XPATH, Locator.ACC_RESEND_INFO)
 
+    EMAIL_NUMBER = (By.XPATH, Locator.EMAIL_NUMBER)
+    EMAIL_ACCESS_CODE = (By.XPATH, Locator.EMAIL_ACCESS_CODE)
+    EMAIL_HOST_PIN = (By.XPATH, Locator.EMAIL_HOST_PIN)
+
 
     def toll_number_assert(self):
         assert self.driver.find_element(*self.TOLL).text == self.data.TOLL_NUMBER
@@ -51,32 +55,6 @@ class Account(BasePage):
     def playback_number_assert(self):
         assert self.driver.find_element(*self.ACC_PLAYBACK_NUMBER).text == self.data.PLAYBACK_NUMBER
 
-    def first_name_assert(self):
-        assert self.driver.find_element(*self.ACC_FIRST_NAME).get_attribute("value") == self.data.PROF_FIRST_NAME
-
-    def last_name_assert(self):
-        assert self.driver.find_element(*self.ACC_LAST_NAME).get_attribute("value") == self.data.PROF_LAST_NAME
-
-    def email_assert(self):
-        assert self.driver.find_element(*self.ACC_EMAIL).get_attribute("value") == self.data.PROF_EMAIL
-
-    def phone_number_assert(self):
-        assert self.driver.find_element(*self.ACC_PHONE_NUM).get_attribute("value") == self.data.PROF_PHONE_NUMBER
-
-    def company_name_assert(self):
-        assert self.driver.find_element(*self.ACC_COMPANY_NAME).get_attribute("value") == self.data.PROF_COMPANY_NAME
-
-    def address_assert(self):
-        assert self.driver.find_element(*self.ACC_STREET_ADDRESS).get_attribute("value") == self.data.PROF_ADDRESS
-
-    def suite_assert(self):
-        assert self.driver.find_element(*self.ACC_SUITE).get_attribute("value") == self.data.PROF_SUITE
-
-    def zip_assert(self):
-        assert self.driver.find_element(*self.ACC_ZIP).get_attribute("value") == self.data.PROF_ZIP
-
-    def state_assert(self):
-        assert self.driver.find_element(*self.ACC_STATE).get_attribute("value") == self.data.PROF_STATE
 
 
 
@@ -90,3 +68,21 @@ class Account(BasePage):
         assert self.driver.find_element(*self.ACC_CHANGE_ZONES).text == text
 
 
+    def click_on_resend_info(self):
+        self.driver.find_element(*self.ACC_RESEND_INFO).click()
+        self.functions.WaitLocate(self.Locator.RESEND_INFO_MESSAGE)
+        self.functions.getScreenshot("resendinfo")
+
+    def take_data_for_login(self):
+        self.SignUp_Toll = self.driver.find_element(*self.TOLL).text
+        self.SignUp_Access = self.driver.find_element(*self.ACC_ACCESSCODE).text
+        self.SignUp_PIN = self.driver.find_element(*self.ACC_HOSTPIN).text
+
+    def checking_information(self):
+        self.LOG_number = self.driver.find_element(*self.EMAIL_NUMBER).text
+        self.LOG_access_code = self.driver.find_element(*self.EMAIL_ACCESS_CODE).text
+        self.LOG_host_pin = self.driver.find_element(*self.EMAIL_HOST_PIN).text
+
+        assert self.SignUp_Toll, self.LOG_number
+        assert self.SignUp_Access, self.LOG_access_code
+        assert self.SignUp_PIN, self.LOG_host_pin

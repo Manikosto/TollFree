@@ -54,7 +54,7 @@ def driver(request):
         yield
         driver.delete_all_cookies()
         driver.close()
-        return driver
+
 
 
     elif browser == "edge":
@@ -66,10 +66,15 @@ def driver(request):
         yield
         driver.delete_all_cookies()
         driver.close()
-        return driver
+
 
     elif browser == "Safari":
 
+
+
+        with open("../env.py","w") as env:
+            env.write("env = 'Safary'")
+            env.close()
         desired_cap = {
             'browser': 'Safari',
             'browser_version': '12.0',
@@ -77,14 +82,9 @@ def driver(request):
             'os_version': 'Mojave',
             'resolution': '1920x1080',
             'name': 'Bstack-[Python] Sample Test',
-            'browserstack.sendKeys' : 'true',
-            'browserstack.local' : 'true'
+            'browserstack.sendKeys': 'true',
+            'browserstack.local': 'true'
         }
-
-        with open("../env.py","w") as env:
-            env.write("env = 'Safary'")
-            env.close()
-
         driver: WebDriver = webdriver.Remote(
             command_executor='https://igornikolaev3:CSxj6qm7K8zpuggWyqNx@hub-cloud.browserstack.com/wd/hub',
             desired_capabilities=desired_cap)
@@ -93,7 +93,7 @@ def driver(request):
         yield
         driver.delete_all_cookies()
         driver.quit()
-        return driver
+
 
     elif browser == "chrome_55":
 
@@ -118,6 +118,29 @@ def driver(request):
         driver.quit()
         return driver
 
+
+    elif browser == "chrome_55":
+
+        desired_cap = {
+            'browser': 'Chrome',
+             'browser_version': '55.0',
+             'os': 'Windows',
+             'os_version': '10',
+             'resolution': '1920x1200',
+             'name': 'Bstack-[Python] Releas 1',
+            'browserstack.sendKeys' : 'true',
+            'browserstack.local' : 'true'
+        }
+
+        driver: WebDriver = webdriver.Remote(
+            command_executor='https://igornikolaev3:CSxj6qm7K8zpuggWyqNx@hub-cloud.browserstack.com/wd/hub',
+            desired_capabilities=desired_cap)
+        request.cls.driver = driver
+
+        yield
+        driver.delete_all_cookies()
+        driver.quit()
+        return driver
 
 
 @pytest.fixture(scope="function")
