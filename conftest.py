@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.android.webdriver import WebDriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
-from Data import Data
+from data import Data
 from Links import Links
 from locators import Locator
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
