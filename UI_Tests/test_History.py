@@ -17,7 +17,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
 @allure.parent_suite("History and Recordings page")
-
+@allure.suite("History and Recordings page")
 class Test_History():
 
     def setup(self):

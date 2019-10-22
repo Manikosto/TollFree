@@ -13,7 +13,7 @@ from functions import Functions
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
 @allure.parent_suite("Contact Us page")
-
+@allure.suite("Contact Us page checking")
 class Test_ContactUs():
 
     def setup(self):

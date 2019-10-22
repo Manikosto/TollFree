@@ -14,7 +14,7 @@ from Pages.Login_page import LoginPage
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
 @allure.parent_suite("Login page")
-
+@allure.suite("Login page")
 class Test_LoginPage():
 
     def setup(self):

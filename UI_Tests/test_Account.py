@@ -19,6 +19,7 @@ from data import Data
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
 @allure.parent_suite("Account page")
+@allure.suite("Account page checking")
 class Test_Account():
 
 

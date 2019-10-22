@@ -15,7 +15,7 @@ from Pages.Home_page import Home
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
 @allure.parent_suite("Home page")
-
+@allure.suite("Home page")
 class Test_Home():
 
     def setup(self):

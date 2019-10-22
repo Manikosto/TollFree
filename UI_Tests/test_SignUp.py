@@ -18,7 +18,7 @@ from Pages.Yandex_page import YandexLogin
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
 @allure.parent_suite("Sign up page")
-
+@allure.suite("Sign up page")
 class Test_SignUp():
 
     def setup(self):
