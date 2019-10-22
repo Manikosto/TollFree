@@ -9,6 +9,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from Pages.BasePage import BasePage
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class History(BasePage):
 
@@ -36,10 +38,10 @@ class History(BasePage):
     CLOSE_RECORDING = (By.XPATH, Locator.CLOSE_RECORDING)
 
 
-    def open_recording(self):
-        open_recording = self.driver.find_element(*self.OPEN_RECORDING)
-        open_recording.click()
-        assert open_recording.get_attribute("class") == "fa fa-minus icon-minus"
+    # def open_recording(self):
+    #     open_recording = self.driver.find_element(*self.OPEN_RECORDING)
+    #     open_recording.click()
+    #     assert open_recording.get_attribute("class") == "fa fa-minus icon-minus"
 
     def play_recording(self):
         self.driver.find_element(*self.PLAY).click()

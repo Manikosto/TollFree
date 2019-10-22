@@ -13,6 +13,7 @@ from Pages.History_Page import History
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from env import env
 
+
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
 @allure.parent_suite("History and Recordings page")
@@ -34,11 +35,12 @@ class Test_History():
     @pytest.mark.sanity
     @allure.title("Player checking")
     @allure.severity("Critical")
+    @pytest.mark.pop
     def test_player_checking(self):
 
-        with allure.step("Opening recording"):
-            self.history_page.open_recording()
-            self.functions.getScreenshot("open_recording")
+        # with allure.step("Opening recording"):
+        #     self.history_page.open_recording()
+        #     self.functions.getScreenshot("open_recording")
 
         with allure.step("Opening recording"):
             self.history_page.play_recording()

@@ -26,3 +26,6 @@ class BasePage():
 
     def open_link(self, link):
         return self.driver.get(link)
+
+    def wait_clicable(self, elem):
+        self.wait.until(EC.element_to_be_clickable((elem)))

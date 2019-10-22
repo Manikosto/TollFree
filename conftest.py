@@ -14,7 +14,6 @@ import shutil
 driver = None
 stand = None
 
-
 pytest_plugins = []
 
 def pytest_addoption(parser):
