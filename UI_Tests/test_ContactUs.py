@@ -8,7 +8,7 @@ from locators import Locator
 from Pages.ContactUs_page import ContactUs
 from Links import Links
 from functions import Functions
-from env import env
+
 
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")

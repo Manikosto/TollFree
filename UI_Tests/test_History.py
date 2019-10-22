@@ -11,7 +11,7 @@ from functions import Functions
 from Pages.Login_page import LoginPage
 from Pages.History_Page import History
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from env import env
+
 
 
 @pytest.mark.usefixtures("driver")

@@ -9,7 +9,7 @@ from Links import Links
 from locators import Locator
 from functions import Functions
 from Pages.Login_page import LoginPage
-from env import env
+
 
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")

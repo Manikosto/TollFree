@@ -14,7 +14,7 @@ from Pages.Yandex_page import YandexLogin
 from Pages.Login_page import LoginPage
 from Pages.SignUp_Page import SignUpPage
 from data import Data
-from env import env
+
 
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
