@@ -12,8 +12,8 @@ from env import env
 
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
-@allure.parent_suite(env)
-@allure.suite("Contact Us page")
+@allure.parent_suite("Contact Us page")
+
 class Test_ContactUs():
 
     def setup(self):

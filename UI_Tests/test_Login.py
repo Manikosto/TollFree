@@ -13,8 +13,8 @@ from env import env
 
 @pytest.mark.usefixtures("driver")
 @pytest.mark.usefixtures("choose_stand")
-@allure.parent_suite(env)
-@allure.suite("Login page")
+@allure.parent_suite("Login page")
+
 class Test_LoginPage():
 
     def setup(self):

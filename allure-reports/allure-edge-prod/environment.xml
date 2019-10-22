@@ -1,0 +1,10 @@
+<environment>
+    <parameter>
+        <key>Browser</key>
+        <value>Edge</value>
+    </parameter>
+    <parameter>
+        <key>Stand</key>
+        <value>Production</value>
+    </parameter>
+</environment>

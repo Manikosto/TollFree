@@ -33,9 +33,10 @@ def driver(request):
     browser = request.config.getoption("--browser")
     if browser == "chrome":
 
-        with open("env.py","w") as env: 
-            env.write("env = 'Chrome'")
-            env.close()
+        # with open("env.py","w") as env:
+        #     env.write("env = 'Chrome'")
+        #     env.close()
+
         driver: WebDriver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
         request.cls.driver = driver
 
@@ -45,9 +46,9 @@ def driver(request):
         return driver
 
     elif browser == "firefox":
-        with open("env.py","w") as env:
-            env.write("env = 'Firefox'")
-            env.close()
+        # with open("env.py","w") as env:
+        #     env.write("env = 'Firefox'")
+        #     env.close()
         driver: WebDriver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
         request.cls.driver = driver
 
@@ -58,9 +59,9 @@ def driver(request):
 
 
     elif browser == "edge":
-        with open(".env.py","w") as env:
-            env.write("env = 'Edge'")
-            env.close()
+        # with open(".env.py","w") as env:
+        #     env.write("env = 'Edge'")
+        #     env.close()
         driver: WebDriver = webdriver.Edge(executable_path="../Drivers/MicrosoftWebDriver.exe")
         request.cls.driver = driver
         yield
