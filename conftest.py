@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.android.webdriver import WebDriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.microsoft import IEDriverManager
 from data import Data
 from Links import Links
 from locators import Locator
@@ -61,7 +62,7 @@ def driver(request):
         # with open(".env.py","w") as env:
         #     env.write("env = 'Edge'")
         #     env.close()
-        driver: WebDriver = webdriver.Edge(executable_path="../Drivers/MicrosoftWebDriver.exe")
+        driver: WebDriver = webdriver.Ie(IEDriverManager().install())
         request.cls.driver = driver
         yield
         driver.delete_all_cookies()
