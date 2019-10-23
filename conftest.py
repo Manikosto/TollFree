@@ -62,7 +62,7 @@ def driver(request):
         # with open(".env.py","w") as env:
         #     env.write("env = 'Edge'")
         #     env.close()
-        driver: WebDriver = webdriver.Ie(executable_path="Drivers/msedgedriver.exe")
+        driver: WebDriver = webdriver.Edge(executable_path="Drivers/MicrosoftWebDriver.exe")
         request.cls.driver = driver
         yield
         driver.delete_all_cookies()
