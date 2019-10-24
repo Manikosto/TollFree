@@ -41,7 +41,8 @@ class Account(BasePage):
 
 
     def toll_number_assert(self):
-        time.sleep(5)
+        if self.driver.title == "https://qa-www.simpletollfree.com/v2/subscriptions/613710":
+            self.driver.back()
         assert self.driver.find_element(*self.TOLL).text == self.data.TOLL_NUMBER
 
     def tollfree_number_assert(self):
@@ -66,10 +67,11 @@ class Account(BasePage):
         assert self.driver.find_element(*self.ACC_CHANGE_ZONES).text == text
 
     def click_on_resend_info(self):
-        self.driver.refresh()
-        time.sleep(5)
+
         self.driver.find_element(*self.ACC_RESEND_INFO).click()
         self.functions.WaitLocate(self.Locator.RESEND_INFO_MESSAGE)
+        if self.driver.title == "https://qa-www.simpletollfree.com/v2/subscriptions/613710":
+            self.driver.back()
         self.functions.getScreenshot("resendinfo")
 
     def take_data_for_login(self):
