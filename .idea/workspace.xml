@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ae80825-613c-4773-ae45-b0f72173110b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Pages/Account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Account_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI_Tests/test_Account.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI_Tests/test_Account.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +18,7 @@
             <entry file="file://$PROJECT_DIR$/conftest.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="459">
-                  <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+                  <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -54,11 +54,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Pages/Account_page.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="313">
-                  <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+                <state relative-caret-position="211">
+                  <caret line="63" selection-start-line="63" selection-end-line="63" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -66,11 +66,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/UI_Tests/test_Account.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="362">
-                  <caret line="103" column="56" lean-forward="true" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -157,7 +157,6 @@
         <option value="$PROJECT_DIR$/allure-reports/allure-chrome-prod/environment.xml" />
         <option value="$PROJECT_DIR$/allure-reports/allure-edge-prod/environment.xml" />
         <option value="$PROJECT_DIR$/allure-reports/allure-firefox-prod/environment.xml" />
-        <option value="$PROJECT_DIR$/UI_Tests/test_Account.py" />
         <option value="$PROJECT_DIR$/UI_Tests/test_ContactUs.py" />
         <option value="$PROJECT_DIR$/UI_Tests/test_Home.py" />
         <option value="$PROJECT_DIR$/UI_Tests/test_Login.py" />
@@ -168,10 +167,11 @@
         <option value="$PROJECT_DIR$/Pages/History_Page.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/Pages/Account_page.py" />
+        <option value="$PROJECT_DIR$/UI_Tests/test_Account.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="32" />
     <option name="width" value="1936" />
@@ -660,17 +660,7 @@
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI_Tests/test_Account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="103" column="56" lean-forward="true" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -679,10 +669,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/Account_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="211">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI_Tests/test_Account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
