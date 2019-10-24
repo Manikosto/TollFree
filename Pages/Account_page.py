@@ -41,6 +41,7 @@ class Account(BasePage):
 
 
     def toll_number_assert(self):
+        time.sleep(5)
         assert self.driver.find_element(*self.TOLL).text == self.data.TOLL_NUMBER
 
     def tollfree_number_assert(self):
@@ -55,9 +56,6 @@ class Account(BasePage):
     def playback_number_assert(self):
         assert self.driver.find_element(*self.ACC_PLAYBACK_NUMBER).text == self.data.PLAYBACK_NUMBER
 
-
-
-
     def change_zones_click(self):
         return self.driver.find_element(*self.ACC_CHANGE_ZONES).click()
 
@@ -67,8 +65,9 @@ class Account(BasePage):
     def text_timezones_checking(self, text):
         assert self.driver.find_element(*self.ACC_CHANGE_ZONES).text == text
 
-
     def click_on_resend_info(self):
+        self.driver.refresh()
+        time.sleep(5)
         self.driver.find_element(*self.ACC_RESEND_INFO).click()
         self.functions.WaitLocate(self.Locator.RESEND_INFO_MESSAGE)
         self.functions.getScreenshot("resendinfo")
