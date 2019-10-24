@@ -1,4 +1,4 @@
-import pytest
+ттаттатттатволаimport pytest
 import allure
 import time
 import os, sys
@@ -41,7 +41,7 @@ class Test_Account():
     @allure.title("Account info checking")
     @allure.severity("Minor")
     def test_checking_info(self):
-
+            
         with allure.step("Toll number checking"):
             self.account_page.toll_number_assert()
 
@@ -103,7 +103,7 @@ class Test_Account():
 
         with allure.step("Click on resend info button"):
             self.account_page.click_on_resend_info()
-
+           
         with allure.step("Take data for checking"):
             self.account_page.take_data_for_login()
 
