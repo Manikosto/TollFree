@@ -31,6 +31,7 @@ def pytest_addoption(parser):
 def driver(request):
 
     browser = request.config.getoption("--browser")
+
     if browser == "chrome":
 
         # with open("env.py","w") as env:
@@ -46,9 +47,11 @@ def driver(request):
         return driver
 
     elif browser == "firefox":
+
         # with open("env.py","w") as env:
         #     env.write("env = 'Firefox'")
         #     env.close()
+
         driver: WebDriver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
         request.cls.driver = driver
 
@@ -62,7 +65,7 @@ def driver(request):
         # with open(".env.py","w") as env:
         #     env.write("env = 'Edge'")
         #     env.close()
-        driver: WebDriver = webdriver.Edge(executable_path="Drivers/MicrosoftWebDriver.exe")
+        driver: WebDriver = webdriver.Edge(executable_path="../Drivers/MicrosoftWebDriver.exe")
         request.cls.driver = driver
         yield
         driver.delete_all_cookies()
@@ -71,24 +74,24 @@ def driver(request):
 
     elif browser == "Safari":
 
+        driver: WebDriver = webdriver.Safari()
 
-
-        with open("../env.py","w") as env:
-            env.write("env = 'Safary'")
-            env.close()
-        desired_cap = {
-            'browser': 'Safari',
-            'browser_version': '12.0',
-            'os': 'OS X',
-            'os_version': 'Mojave',
-            'resolution': '1920x1080',
-            'name': 'Bstack-[Python] Sample Test',
-            'browserstack.sendKeys': 'true',
-            'browserstack.local': 'true'
-        }
-        driver: WebDriver = webdriver.Remote(
-            command_executor='https://igornikolaev3:CSxj6qm7K8zpuggWyqNx@hub-cloud.browserstack.com/wd/hub',
-            desired_capabilities=desired_cap)
+        # with open("../env.py","w") as env:
+        #     env.write("env = 'Safary'")
+        #     env.close()
+        # desired_cap = {
+        #     'browser': 'Safari',
+        #     'browser_version': '12.0',
+        #     'os': 'OS X',
+        #     'os_version': 'Mojave',
+        #     'resolution': '1920x1080',
+        #     'name': 'Bstack-[Python] Sample Test',
+        #     'browserstack.sendKeys': 'true',
+        #     'browserstack.local': 'true'
+        # }
+        # driver: WebDriver = webdriver.Remote(
+        #     command_executor='https://igornikolaev3:CSxj6qm7K8zpuggWyqNx@hub-cloud.browserstack.com/wd/hub',
+        #     desired_capabilities=desired_cap)
         request.cls.driver = driver
 
         yield

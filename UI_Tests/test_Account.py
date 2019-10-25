@@ -1,5 +1,5 @@
 import pytest
-
+import requests
 import allure
 import time
 import os, sys
@@ -31,6 +31,7 @@ class Test_Account():
         self.account_page = Account(self.driver)
         self.yandex_page = YandexLogin(self.driver)
         self.login_page = LoginPage(self.driver)
+        self.session = requests.Session()
 
 
         self.driver.get(self.links.account)
@@ -66,6 +67,7 @@ class Test_Account():
     def test_timezones_info_checking(self):
 
         with allure.step("Show only USA time zones"):
+
             self.account_page.change_zones_click()
             self.account_page.text_timezones_checking("Show all time zones")
             self.account_page.account_timezones_click()
@@ -84,6 +86,7 @@ class Test_Account():
     def test_timezones_info_checking(self):
 
         with allure.step("Show only USA time zones"):
+
             self.account_page.change_zones_click()
             self.account_page.text_timezones_checking("Show all time zones")
             self.account_page.account_timezones_click()
