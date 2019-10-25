@@ -421,7 +421,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-32000" y="-32000" width="340" height="54" extended-state="0" />
+    <frame x="-32000" y="-32000" width="340" height="54" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="1.0" />
