@@ -94,19 +94,19 @@ class Test_ContactUs():
             self.functions.getScreenshot("invalid_nimber")
 
 
-    @pytest.mark.smoke
-    @pytest.mark.sanity
-    @allure.title("Social links checking")
-    @allure.severity("Critical")
-    def test_social_link(self):
-        with allure.step("Checking rss link"):
-            self.contact_page.rss_link_checking()
-        with allure.step("Checking youtube link"):
-            self.contact_page.youtube_link_checking()
-        with allure.step("Checking facebook link"):
-            self.contact_page.facebook_link_checking()
-        with allure.step("Checking twitter link"):
-            self.contact_page.twitter_link_checking()
+    # @pytest.mark.smoke
+    # @pytest.mark.sanity
+    # @allure.title("Social links checking")
+    # @allure.severity("Critical")
+    # def test_social_link(self):
+    #     with allure.step("Checking rss link"):
+    #         self.contact_page.rss_link_checking()
+    #     with allure.step("Checking youtube link"):
+    #         self.contact_page.youtube_link_checking()
+    #     with allure.step("Checking facebook link"):
+    #         self.contact_page.facebook_link_checking()
+    #     with allure.step("Checking twitter link"):
+    #         self.contact_page.twitter_link_checking()
 
 
 

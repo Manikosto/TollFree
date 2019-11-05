@@ -116,3 +116,6 @@ class Test_Account():
             self.yandex_page.CheckLetter()
             self.functions.getScroll("400")
             self.account_page.checking_information()
+            
+        with allure.step("Clear email"):
+            self.yandex_page.EmptyEmail()

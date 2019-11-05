@@ -23,6 +23,7 @@ class BasePage():
     def __init__(self, driver):
         self.driver = driver
         self.driver.implicitly_wait(30) # Обьявляем ожидания для страниц
+        # self.driver.set_window_size(1920, 1080) # Указываем размер окна
         self.driver.maximize_window() # Указываем размер окна
         self.wait = WebDriverWait(self.driver, 30) # Указываем ожидания для элементов
         self.functions = Functions(self.driver) # Создаем обьект для того чтобы использовать функции в pages

@@ -29,7 +29,7 @@ class Test_SignUp():
 
         self.driver.get(self.links.sign_up)
 
-    # @pytest.mark.sanity
+    @pytest.mark.sanity
     @pytest.mark.smoke
     @allure.title("Successful registration")
     @allure.severity("Critical")

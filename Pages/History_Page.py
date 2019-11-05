@@ -80,13 +80,13 @@ class History(BasePage):
     def click_on_download_pdf_button(self):
         self.driver.find_element(*self.DOWNLOAD_PDF).click()
         time.sleep(3)
-        self.driver.switch_to.window(window_name=self.driver.window_handles[1])
         self.functions.getScreenshot("Download PDF")
-        self.driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
-        self.driver.switch_to.window(window_name=self.driver.window_handles[0])
+        # self.driver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
+        # self.driver.switch_to.window(window_name=self.driver.window_handles[1])
+        # self.driver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
 
-    def close_recording(self):
-        self.driver.find_element(*self.CLOSE_RECORDING).click()
+    # def close_recording(self):
+    #     self.driver.find_element(*self.CLOSE_RECORDING).click()
 
     def enter_start_date(self):
         self.driver.find_element(*self.START_DATE).send_keys(Data.START_DATE)

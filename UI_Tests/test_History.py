@@ -32,10 +32,10 @@ class Test_History():
         self.driver.get(Links.recordings)
 
     @pytest.mark.smoke
+    @pytest.mark.player1
     @pytest.mark.sanity
     @allure.title("Player checking")
     @allure.severity("Critical")
-    @pytest.mark.pop
     def test_player_checking(self):
 
         # with allure.step("Opening recording"):
@@ -77,13 +77,14 @@ class Test_History():
         with allure.step("Click on download pdf button"):
             self.history_page.click_on_download_pdf_button()
 
-        with allure.step("Close recording"):
-            self.history_page.close_recording()
+        # with allure.step("Close recording"):
+        #     self.history_page.close_recording()
 
 
 
     @pytest.mark.smoke
     @pytest.mark.sanity
+    @pytest.mark.player
     @allure.title("Positive filtering")
     @allure.severity("Critical")
     def test_positive_filtering(self):

@@ -1,3 +1,0 @@
-
-Checking for win32 chromedriver:77.0.3865.40 in cache
-Driver found in C:\Users\akoledachkin\.wdm\chromedriver\77.0.3865.40\win32/chromedriver.exe

@@ -1,5 +1,6 @@
 import allure
 import pytest
+
 from selenium import webdriver
 from selenium.webdriver.android.webdriver import WebDriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -34,17 +35,22 @@ def driver(request):
 
     if browser == "chrome":
 
-        # with open("env.py","w") as env:
-        #     env.write("env = 'Chrome'")
-        #     env.close()
-
+        with open("env.py","w") as env:
+            env.write("env = 'Chrome'")
+            env.close()
+        # chrome_options = webdriver.ChromeOptions()
+        # chrome_options.add_argument('--no-sandbox')
+        # chrome_options.add_argument('--headless')
+        # chrome_options.add_argument('--disable-gpu')
+        #
+        # driver: WebDriver = webdriver.Chrome(chrome_options=chrome_options)
         driver: WebDriver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
         request.cls.driver = driver
 
         yield
         driver.delete_all_cookies()
         driver.close()
-        return driver
+        driver.quit()
 
     elif browser == "firefox":
 
@@ -58,6 +64,7 @@ def driver(request):
         yield
         driver.delete_all_cookies()
         driver.close()
+        driver.quit()
 
 
 
@@ -70,6 +77,7 @@ def driver(request):
         yield
         driver.delete_all_cookies()
         driver.close()
+        driver.quit()
 
 
     elif browser == "Safari":
