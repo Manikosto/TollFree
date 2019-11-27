@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  pytests:
+    image: pytests:3.7-alpine3.8-selenium_v2
+    volumes:
+      - .:/usr/workspace
+    command: pytest --stand=qa --browser=chrome --alluredir report-qa
+    stdin_open: true
+    tty: true
+    working_dir: /usr/workspace
+#    environment:
+#      - domain=www.freeconferencecall.com
+
+#  pytests2:
+#    image: pytests:3.7-alpine3.8-selenium_v2
+#    volumes:
+#      - .:/usr/workspace
+#    command: pytest --stand=prod --browser=chrome_55 -m s --alluredir qa-report
+#    stdin_open: true
+#    tty: true
+#    working_dir: /usr/workspace
+#    environment:
+#      - domain=www.freeconferencecall.com
+
