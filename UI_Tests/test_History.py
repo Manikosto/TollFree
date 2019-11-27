@@ -36,6 +36,8 @@ class Test_History():
     @pytest.mark.sanity
     @allure.title("Player checking")
     @allure.severity("Critical")
+    @allure.link(url="https://testlink.int/linkto.php?tprojectPrefix=SM&item=testcase&id=STF",
+                 name="Test Link")  # Write link on test-case in Test Link
     def test_player_checking(self):
 
         # with allure.step("Opening recording"):
